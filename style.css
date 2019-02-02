@@ -1,0 +1,174 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #15375d;
+}
+p {
+  font-family: "Open Sans";
+  font-weight: 200;
+}
+#header-content {
+  display: flex;
+  background-color: #0074e6;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  color: white;
+  padding: 2em 0em 2em 0em;
+}
+
+#titulo-content {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+#titulo-content i {
+  color: white;
+}
+
+#titulo-content img {
+  width: 10rem;
+  height: 6em;
+  clip-path: circle(35% at center);
+}
+
+#nombre {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1em;
+}
+
+#nombre p {
+  color: white;
+  margin-top: 0px;
+  font-family: "Open Sans";
+  font-weight: 200;
+}
+#nombre h1 {
+  color: white;
+  margin-bottom: 0px;
+}
+
+#contacto-content {
+  width: 20em;
+  display: flex;
+  flex-flow: wrap column;
+  margin-left: 2em;
+}
+#contacto-content p {
+  margin: 0px;
+  color: white;
+}
+#datos-content {
+  margin: 3em;
+}
+
+.rel-contacto-texto {
+  display: flex;
+  margin-left: 1rem;
+  margin: 0.5em 0px 0.5em 0px;
+}
+.rel-contacto-texto a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+.rel-contacto-texto i {
+  margin-right: 0.5em;
+}
+.rel-titulo {
+  display: flex;
+}
+
+.rel-titulo h2 {
+  margin: 0px 0px 0px 0.5em;
+  color: #0066cc;
+  font-size: 1.5rem;
+}
+
+.rel-titulo i {
+  color: #0066cc;
+  font-size: 1.5em;
+}
+
+#experiencia-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#experiencia,
+#educacion {
+  width: 25rem;
+}
+
+.rel-temas {
+  margin: 0em 0em 1em 2em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+}
+.rel-temas :nth-child(n) {
+  margin: 0.2em;
+}
+#habilidades-content {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+#habilidades,
+#lenguaje {
+  width: 20rem;
+}
+
+.rel-habilidades {
+  flex-flow: wrap column;
+}
+
+.rel-habilidades p {
+  margin-bottom: 0px;
+}
+
+.rel-contenerdor-barra-progreso {
+  width: 100%;
+  height: 1em;
+  border: 2px solid #0066cc;
+}
+
+.rel-barra-progreso {
+  height: 1em;
+  background-color: #0066cc;
+}
+
+#barra-wordpress {
+  width: 40%;
+}
+
+#barra-java {
+  width: 60%;
+}
+
+#barra-javaScript {
+  width: 50%;
+}
+
+#barra-unity {
+  width: 70%;
+}
+#barra-español {
+  width: 100%;
+}
+#barra-ingles {
+  width: 40%;
+}
+
+#datos-valor {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  margin: 2em;
+}
