@@ -92,6 +92,10 @@ p {
   font-size: 1.5em;
 }
 
+#perfil-content p{
+  margin-left: 2em;
+}
+
 #experiencia-content {
   display: flex;
   flex-flow: row wrap;
@@ -123,10 +127,13 @@ p {
 #habilidades,
 #lenguaje {
   width: 20rem;
+  margin-top:2em;
 }
 
 .rel-habilidades {
+  display: flex;
   flex-flow: wrap column;
+  margin-left: 2em;
 }
 
 .rel-habilidades p {
