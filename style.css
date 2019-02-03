@@ -61,12 +61,15 @@ p {
   color: white;
 }
 #datos-content {
-  margin: 3em;
+  margin: 0em 3em 0em 3em;
   background: url(img/fondo.png)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;;
+}
+#perfil-content{
+  padding-top: 3em;
 }
 
 .rel-contacto-texto {
