@@ -4,12 +4,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #15375d;
 }
-a{
+a {
   text-decoration: none;
   color: #15375d;
 }
-.rel-git :hover{
-  text-decoration:  underline;
+.rel-git :hover {
+  text-decoration: underline;
   font-size: 1.1em;
 }
 
@@ -71,13 +71,13 @@ p {
 }
 #datos-content {
   margin: 0em 3em 0em 3em;
-  background: url(img/fondo.png)no-repeat center center fixed;
+  background: url(img/fondo.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#perfil-content{
+#perfil-content {
   padding-top: 3em;
 }
 
@@ -109,7 +109,7 @@ p {
   font-size: 1.5em;
 }
 
-#perfil-content p{
+#perfil-content p {
   margin-left: 2em;
 }
 
@@ -144,7 +144,7 @@ p {
 #habilidades,
 #lenguaje {
   width: 20rem;
-  margin-top:2em;
+  margin-top: 2em;
 }
 
 .rel-habilidades {
@@ -174,21 +174,21 @@ p {
   width: 40%;
 }
 
-#barra-wordpress:hover:before{
+#barra-wordpress:hover:before {
   content: "40%";
 }
 
 #barra-java {
   width: 60%;
 }
-#barra-java:hover:before{
+#barra-java:hover:before {
   content: "60%";
 }
 
 #barra-mysql {
   width: 70%;
 }
-#barra-mysql:hover:before{
+#barra-mysql:hover:before {
   content: "70%";
 }
 
@@ -196,7 +196,7 @@ p {
   width: 50%;
 }
 
-#barra-javaScript:hover:before{
+#barra-javaScript:hover:before {
   content: "50%";
 }
 
@@ -204,14 +204,14 @@ p {
   width: 70%;
 }
 
-#barra-unity:hover:before{
+#barra-unity:hover:before {
   content: "70%";
 }
 
 #barra-español {
   width: 100%;
 }
-#barra-español:hover:before{
+#barra-español:hover:before {
   content: "100%";
 }
 
@@ -219,7 +219,7 @@ p {
   width: 40%;
 }
 
-#barra-ingles:hover:before{
+#barra-ingles:hover:before {
   content: "40%";
 }
 
@@ -230,10 +230,10 @@ p {
   margin: 2em;
 }
 
-.rel-datos-titulo{
+.rel-datos-titulo {
   width: 25em;
 }
 
-.rel-datos-titulo{
+.rel-datos-titulo {
   margin-left: 2em;
 }
