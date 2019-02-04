@@ -231,10 +231,10 @@ p {
 }
 
 .rel-datos-titulo {
-  width: 25em;
+  display: flex;
+  flex-flow: wrap column;
   margin-left: 2em;
 }
-
 
 .rel-datos-titulo h3{
   margin-bottom: 0px; 
