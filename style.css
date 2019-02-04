@@ -232,8 +232,13 @@ p {
 
 .rel-datos-titulo {
   width: 25em;
+  margin-left: 2em;
 }
 
-.rel-datos-titulo {
-  margin-left: 2em;
+
+.rel-datos-titulo h3{
+  margin-bottom: 0px; 
+}
+.rel-datos-titulo h5{
+  margin: 0px;
 }
