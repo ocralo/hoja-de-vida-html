@@ -4,6 +4,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #15375d;
 }
+a{
+  text-decoration: none;
+  color: #15375d;
+}
+.rel-git :hover{
+  text-decoration:  underline;
+  font-size: 1.1em;
+}
+
 p {
   font-family: "Open Sans";
   font-weight: 200;
@@ -157,28 +166,61 @@ p {
 .rel-barra-progreso {
   height: 1em;
   background-color: #0066cc;
+  color: white;
+  text-align: center;
 }
 
 #barra-wordpress {
   width: 40%;
 }
 
+#barra-wordpress:hover:before{
+  content: "40%";
+}
+
 #barra-java {
   width: 60%;
+}
+#barra-java:hover:before{
+  content: "60%";
+}
+
+#barra-mysql {
+  width: 70%;
+}
+#barra-mysql:hover:before{
+  content: "70%";
 }
 
 #barra-javaScript {
   width: 50%;
 }
 
+#barra-javaScript:hover:before{
+  content: "50%";
+}
+
 #barra-unity {
   width: 70%;
 }
+
+#barra-unity:hover:before{
+  content: "70%";
+}
+
 #barra-español {
   width: 100%;
 }
+#barra-español:hover:before{
+  content: "100%";
+}
+
 #barra-ingles {
   width: 40%;
+}
+
+#barra-ingles:hover:before{
+  content: "40%";
 }
 
 #datos-valor {
