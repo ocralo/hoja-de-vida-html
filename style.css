@@ -11,7 +11,7 @@
 }
 @media only screen and (max-width: 1441px) {
   body {
-    font-size: 25px;
+    font-size: 21px;
   }
 }
 
@@ -30,15 +30,15 @@
   body {
     font-size: 14px;
   }
-  .rel-datos-titulo{
-    max-width: 20em;
+  .rel-datos-titulo {
+    max-width: 19em;
   }
 }
 @media only screen and (max-width: 320px) {
   body {
     font-size: 14px;
   }
-  .rel-datos-titulo{
+  .rel-datos-titulo {
     max-width: 17em;
   }
 }
@@ -275,7 +275,8 @@ p {
   margin: 2em;
 }
 
-#herramientas,#certificados{
+#herramientas,
+#certificados {
   width: 25em;
 }
 
