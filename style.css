@@ -33,6 +33,9 @@
   .rel-datos-titulo {
     max-width: 19em;
   }
+  #habilidades-content {
+    margin-left: 0em !important;
+}
 }
 @media only screen and (max-width: 320px) {
   body {
