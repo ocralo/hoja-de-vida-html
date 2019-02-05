@@ -9,6 +9,39 @@
     margin: 1em 0px 0px 0px !important;
   }
 }
+@media only screen and (max-width: 1441px) {
+  body {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+  .rel-datos-titulo{
+    max-width: 20em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+  .rel-datos-titulo{
+    max-width: 17em;
+  }
+}
 
 body {
   margin: 0px;
