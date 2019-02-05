@@ -1,3 +1,15 @@
+@media only screen and (max-width: 2560px) {
+  body {
+    font-size: 40px;
+  }
+  #habilidades-content {
+    margin: 0px !important;
+  }
+  #datos-valor {
+    margin: 1em 0px 0px 0px !important;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -37,7 +49,7 @@ p {
 }
 
 #titulo-content img {
-  width: 10rem;
+  width: 10em;
   height: 6em;
   clip-path: circle(35% at center);
 }
@@ -83,7 +95,7 @@ p {
 
 .rel-contacto-texto {
   display: flex;
-  margin-left: 1rem;
+  margin-left: 1em;
   margin: 0.5em 0px 0.5em 0px;
 }
 .rel-contacto-texto a {
@@ -101,7 +113,7 @@ p {
 .rel-titulo h2 {
   margin: 0px 0px 0px 0.5em;
   color: #0066cc;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .rel-titulo i {
@@ -122,7 +134,7 @@ p {
 
 #experiencia,
 #educacion {
-  width: 25rem;
+  width: 25em;
 }
 
 .rel-temas {
@@ -143,7 +155,7 @@ p {
 
 #habilidades,
 #lenguaje {
-  width: 20rem;
+  width: 25em;
   margin-top: 2em;
 }
 
@@ -230,15 +242,20 @@ p {
   margin: 2em;
 }
 
+#herramientas,#certificados{
+  width: 25em;
+}
+
 .rel-datos-titulo {
   display: flex;
   flex-flow: wrap column;
+  width: 25em;
   margin-left: 2em;
 }
 
-.rel-datos-titulo h3{
-  margin-bottom: 0px; 
+.rel-datos-titulo h3 {
+  margin-bottom: 0px;
 }
-.rel-datos-titulo h5{
+.rel-datos-titulo h5 {
   margin: 0px;
 }
