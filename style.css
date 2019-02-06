@@ -2,16 +2,31 @@
   body {
     font-size: 40px;
   }
+  
   #habilidades-content {
     margin: 0px !important;
   }
   #datos-valor {
     margin: 1em 0px 0px 0px !important;
   }
+  #header-content {
+  display: flex;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
 }
 @media only screen and (max-width: 1982px) {
   body {
     font-size: 21px;
+  }
+   #header-content {
+  display: flex;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   }
 }
 
@@ -19,17 +34,25 @@
   body {
     font-size: 18px;
   }
+   #header-content {
+  display: flex;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
 }
 
 @media only screen and (max-width: 1040px) {
   body {
     font-size: 17px;
   }
-}
-
-@media only screen and (max-width: 892px) {
-  body {
-    font-size: 13px;
+   #header-content {
+  display: flex;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   }
 }
 
@@ -41,7 +64,24 @@
   #educacion {
     max-width: 20em;
   }
+  #header-content {
+  display: flex;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
 }
+
+@media only screen and (max-width: 892px) {
+  body {
+    font-size: 13px;
+  }
+  #header-content {
+  position: absolute;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   body {
     font-size: 13px;
@@ -110,10 +150,6 @@ p {
 }
 #header-content {
   display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
   background-image: linear-gradient(to right, #0066cc, #458cd3);
   flex-flow: wrap row;
   justify-content: space-around;
@@ -133,8 +169,8 @@ p {
 }
 
 #titulo-content img {
-  width: 10em;
-  height: 6em;
+  width: 12em;
+  height: 7em;
   clip-path: circle(35% at center);
 }
 
