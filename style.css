@@ -77,9 +77,6 @@
   body {
     font-size: 13px;
   }
-  #header-content {
-  position: absolute;
-  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -97,6 +94,9 @@
     justify-content: center !important;
     align-items: center !important;
   }
+    #header-content {
+  position: relative;
+  }
 }
 @media only screen and (max-width: 375px) {
   body {
@@ -112,6 +112,9 @@
     justify-content: center;
     align-items: center;
   }
+    #header-content {
+  position: relative;
+  }
 }
 @media only screen and (max-width: 337px) {
   body {
@@ -126,6 +129,9 @@
   #nombre {
     justify-content: center;
     align-items: center;
+  }
+    #header-content {
+  position: relative;
   }
 }
 
