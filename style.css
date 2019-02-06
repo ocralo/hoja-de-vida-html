@@ -47,13 +47,12 @@
     justify-content: center !important;
     align-items: center !important;
   }
-  #titulo-content{
+  #titulo-content {
     /*flex-flow: wrap row !important;*/
     max-width: 23em;
     justify-content: center !important;
     align-items: center !important;
   }
-  
 }
 @media only screen and (max-width: 375px) {
   body {
@@ -118,7 +117,7 @@ p {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  align-items: center 
+  align-items: center;
 }
 
 #titulo-content i {
