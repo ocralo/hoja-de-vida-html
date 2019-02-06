@@ -349,7 +349,7 @@ p {
 }
 
 #barra-español {
-  width: 100%;
+  width: 90%;
 }
 #barra-español:hover:before {
   content: "100%";
