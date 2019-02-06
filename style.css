@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2px) {
+@media only screen and (max-width: 2560px) {
   body {
     font-size: 40px;
   }
@@ -38,6 +38,23 @@
     font-size: 13px;
   }
 }
+@media only screen and (max-width: 680px) {
+  body {
+    font-size: 13px;
+  }
+  #header-content {
+    /*flex-flow: wrap column !important;*/
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #titulo-content{
+    /*flex-flow: wrap row !important;*/
+    max-width: 23em;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+}
 @media only screen and (max-width: 375px) {
   body {
     font-size: 14px;
@@ -48,14 +65,24 @@
   #habilidades-content {
     margin-left: 0em !important;
   }
-
+  #nombre {
+    justify-content: center;
+    align-items: center;
+  }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 337px) {
   body {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .rel-datos-titulo {
-    max-width: 17em;
+    max-width: 15em;
+  }
+  .rel-habilidad-contenedor {
+    max-width: 18em !important;
+  }
+  #nombre {
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -91,6 +118,7 @@ p {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
+  align-items: center 
 }
 
 #titulo-content i {
