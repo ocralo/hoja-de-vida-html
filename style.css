@@ -37,6 +37,10 @@
   body {
     font-size: 13px;
   }
+  #experiencia,
+  #educacion {
+    max-width: 20em;
+  }
 }
 @media only screen and (max-width: 680px) {
   body {
@@ -106,11 +110,15 @@ p {
 }
 #header-content {
   display: flex;
-  background-color: #0074e6;
+  /*background-color: #0074e6;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to right, #0066cc, #458cd3);
   flex-flow: wrap row;
   justify-content: space-around;
   color: white;
-  padding: 2em 0em 2em 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 #titulo-content {
