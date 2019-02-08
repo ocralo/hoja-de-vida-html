@@ -2,31 +2,31 @@
   body {
     font-size: 40px;
   }
-  
+
   #habilidades-contenedor {
     margin: 0px !important;
   }
   #datos-valor {
-    margin: 1em 0px 0px 0px !important;
+    margin: 4em 0px 0px 0px !important;
   }
   #principal-contenedor {
-  display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    display: flex;
+    /*background-color: #0074e6;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 @media only screen and (max-width: 1982px) {
   body {
     font-size: 21px;
   }
-   #principal-contenedor {
-  display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  #principal-contenedor {
+    display: flex;
+    /*background-color: #0074e6;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
@@ -34,12 +34,12 @@
   body {
     font-size: 18px;
   }
-   #principal-contenedor {
-  display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  #principal-contenedor {
+    display: flex;
+    /*background-color: #0074e6;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
@@ -47,12 +47,12 @@
   body {
     font-size: 17px;
   }
-   #principal-contenedor {
-  display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  #principal-contenedor {
+    display: flex;
+    /*background-color: #0074e6;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
@@ -65,11 +65,11 @@
     max-width: 20em;
   }
   #principal-contenedor {
-  display: flex;
-  /*background-color: #0074e6;*/
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    display: flex;
+    /*background-color: #0074e6;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 
@@ -94,8 +94,8 @@
     justify-content: center !important;
     align-items: center !important;
   }
-    #principal-contenedor {
-  position: relative;
+  #principal-contenedor {
+    position: relative;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -112,8 +112,8 @@
     justify-content: center;
     align-items: center;
   }
-    #principal-contenedor {
-  position: relative;
+  #principal-contenedor {
+    position: relative;
   }
 }
 @media only screen and (max-width: 337px) {
@@ -130,8 +130,8 @@
     justify-content: center;
     align-items: center;
   }
-    #principal-contenedor {
-  position: relative;
+  #principal-contenedor {
+    position: relative;
   }
 }
 
@@ -255,6 +255,7 @@ p {
   flex-flow: row wrap;
   justify-content: space-between;
   width: 100%;
+  margin-top: 3em;
 }
 
 #experiencia,
@@ -299,7 +300,7 @@ p {
   height: 1em;
   border: 2px solid #0066cc;
 
-  border-radius: .4em .4em .4em .4em;
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
 }
 
 .rel-barra-progreso {
@@ -307,15 +308,15 @@ p {
   background-color: #0066cc;
   color: white;
   text-align: center;
-  border-radius: 0px .3em .3em 0px;
+  border-radius: 0px 0.3em 0.3em 0px;
 }
 
 #barra-wordpress {
-  width: 40%;
+  width: 50%;
 }
 
 #barra-wordpress:hover:before {
-  content: "40%";
+  content: "50%";
 }
 
 #barra-java {
@@ -349,10 +350,10 @@ p {
 }
 
 #barra-español {
-  width: 90%;
+  width: 80%;
 }
 #barra-español:hover:before {
-  content: "90%";
+  content: "80%";
 }
 
 #barra-ingles {
