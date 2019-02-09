@@ -184,14 +184,15 @@ p {
   display: scroll;
   position: fixed;
   background-color: #0066cc;
-  max-width: 8em;
+  max-width: 15em;
   padding: 1em;
   border: 1 solid snow;
   border-radius: 2em;
-  font-size: 0.6em;
+  font-size: 0.8em;
   bottom: 1em;
   right: 1em;
 }
+
 
 #titulo-contenedor {
   display: flex;
