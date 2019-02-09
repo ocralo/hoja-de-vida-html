@@ -17,9 +17,15 @@
     top: 0;
   }
 }
+@media only screen and (max-width: 2239px) {
+  body {
+    font-size: 35px;
+  }
+}
+
 @media only screen and (max-width: 1982px) {
   body {
-    font-size: 21px;
+    font-size: 32px;
   }
   #principal-contenedor {
     display: flex;
@@ -27,6 +33,18 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+  }
+}
+
+@media only screen and (max-width: 1791px) {
+  body {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    font-size: 21px;
   }
 }
 
@@ -160,6 +178,19 @@ p {
   justify-content: space-around;
   color: white;
   padding: 1em 0em 1em 0em;
+}
+
+.rel-descargar-pdf {
+  display: scroll;
+  position: fixed;
+  background-color: #0066cc;
+  max-width: 8em;
+  padding: 1em;
+  border: 1 solid snow;
+  border-radius: 2em;
+  font-size: 0.6em;
+  bottom: 1em;
+  right: 1em;
 }
 
 #titulo-contenedor {
