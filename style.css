@@ -106,6 +106,10 @@
     position: sticky;
     top: 0;
   }
+  #datos-contenedor {
+    height: 100%;
+    min-height: 100%;
+  }
 }
 
 @media only screen and (max-width: 892px) {
@@ -209,7 +213,6 @@ p {
   bottom: 1em;
   right: 1em;
 }
-
 
 #titulo-contenedor {
   display: flex;
